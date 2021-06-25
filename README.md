@@ -45,7 +45,7 @@ require 'vendor/autoload.php';
 $result = Mossengine\Helpers\_Statement\_Is::_Is(1, '===', 1);
 
 // Mossengine Helper usage ( intended )
-$result = Mossengine\Helper::Statement()::Is(1, '===', 1);
+$result = Mossengine\Helper::Statement()->Is(1, '===', 1);
 ```
 
 ## Documentation
